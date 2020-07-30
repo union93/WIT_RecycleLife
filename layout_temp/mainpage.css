@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+#left_side_content{
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #81A58B;
+    float: left;
+}
+
+#left_side_top{
+    position: relative;
+    width: 100%;
+    height:20%;
+    left:0px;
+    top:0px;
+
+}
+#logo{
+    position: relative;
+    top:35px;
+    left:53px;
+    width: 150px;
+    height: 80px;
+
+}
+#logo a{
+    font-family: KoHo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    align-items: center;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+#left_side_bottom{
+
+    position: relative;
+    width: 100%;
+    height:70%;
+    left:0px;
+    top:0px;
+
+}
+#login{
+    position: relative;
+    top:0px;
+    left:40%;
+    width:135px;
+    height:120px;
+
+    margin: 20px 20px 20px 20px;
+}
+#login_btn{
+    position: relative;
+    width: 150px;
+    right:20px;
+    font-family: KoHo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #C2D0C1;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    border:0;
+    outline: 0;
+    padding-left: 40px;
+}
+#login_btn:hover{
+    background: #99a599;
+}
+#signup_btn{
+    position: relative;
+    width: 150px;
+    right:20px;
+    font-family: KoHo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #516C58;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    padding-left: 33px;
+    border:0;
+    outline: 0;
+}
+
+#signup_btn:hover{
+    background: #abc4af;
+}
+
+#right_side_post_content{
+    position: relative;
+    left:0px;
+    top:0px;
+    width: 70%;
+    height: 100%;
+    background: white;
+    float: left;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left:0px;
+    top:0px;
+}
+#top_icon_bar{
+    position: relative;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+
+}
+#nav{
+    position: relative;
+    left:0px;
+    width:100%;
+    height: 80%;
+    border: solid 1px black;
+}
+#nav ul{
+    position: relative;
+    left:15%;
+    width: max-content;
+    height: max-content;
+    border: solid 1px black;
+}
+#nav ul li {
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    list-style: none;
+    border: solid 1px black;
+}
+#nav ul li a{
+    font-family: 'Gugi', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #6C6262;
+    border: solid 1px black;
+}
+#nav ul li a:hover{
+    color: #b69a9a;
+}
+#content{
+    position: absolute;
+    width: 100%;
+    height:85%;
+    right:0px;
+    top:15%;
+    border:solid black 1px;
+
+}
+#funding_post{
+    width: 35%;
+    height: 65%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    float: left;
+
+}
+#today_post {
+    width: 55%;
+    height: 65%;
+    position: relative;
+    left: 5%;
+    top: 10%;
+    float: left;
+}
+#ad_banner{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 10%;
+
+}
